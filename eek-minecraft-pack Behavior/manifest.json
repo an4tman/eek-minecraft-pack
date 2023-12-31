@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "EEK",
+		"description": "EEK Behavior Pack",
+		"uuid": "7fdeec48-6cae-c034-fff4-ff34bf00d751",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["E", "E", "and K"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.3.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "e95bc433-f55d-beb1-2562-fdbe1ade6c04",
+			"type": "data"
+		}
+	]
+}

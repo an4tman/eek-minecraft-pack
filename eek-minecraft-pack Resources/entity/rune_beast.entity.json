@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "eek:rune_beast",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/rune_beast"
+			},
+			"geometry": {
+				"default": "geometry.rune_beast"
+			},
+			"animations": {
+				"move": "animation.rune_beast.move"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.rune_beast.move"
+				}
+			],
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#f2d915",
+				"overlay_color": "#d900ff"
+			},
+			"particle_effects": {
+				"ambient_entity_effect": "particle.runebeast_swirl"
+			},
+			"sound_effects": {
+				"ambient_sound": "sound.mob.rune_beast.moan"
+			}
+		}
+	}
+}
